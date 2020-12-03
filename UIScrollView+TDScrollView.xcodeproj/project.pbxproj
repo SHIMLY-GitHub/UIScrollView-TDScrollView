@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D09D62AA2F2DCAD70ACD8D1 /* Pods_UIScrollView_TDScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7ECD56C9E16E80D781DE75 /* Pods_UIScrollView_TDScrollView.framework */; };
+		BDAA39472578B6530001F781 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAA39462578B6530001F781 /* AppDelegate.m */; };
+		BDAA394A2578B6530001F781 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAA39492578B6530001F781 /* SceneDelegate.m */; };
+		BDAA394D2578B6530001F781 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAA394C2578B6530001F781 /* ViewController.m */; };
+		BDAA39502578B6530001F781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDAA394E2578B6530001F781 /* Main.storyboard */; };
+		BDAA39522578B6550001F781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDAA39512578B6550001F781 /* Assets.xcassets */; };
+		BDAA39552578B6550001F781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDAA39532578B6550001F781 /* LaunchScreen.storyboard */; };
+		BDAA39582578B6550001F781 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAA39572578B6550001F781 /* main.m */; };
+		BDAA39622578B6550001F781 /* UIScrollView_TDScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAA39612578B6550001F781 /* UIScrollView_TDScrollViewTests.m */; };
+		BDAA396D2578B6550001F781 /* UIScrollView_TDScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAA396C2578B6550001F781 /* UIScrollView_TDScrollViewUITests.m */; };
+		BDAA39812578B6900001F781 /* UIScrollView+TDScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAA397E2578B6900001F781 /* UIScrollView+TDScrollView.m */; };
+		BDAA39822578B6900001F781 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAA39802578B6900001F781 /* UIScrollView+EmptyDataSet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDAA395E2578B6550001F781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDAA393A2578B6530001F781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDAA39412578B6530001F781;
+			remoteInfo = "UIScrollView+TDScrollView";
+		};
+		BDAA39692578B6550001F781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDAA393A2578B6530001F781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDAA39412578B6530001F781;
+			remoteInfo = "UIScrollView+TDScrollView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A7ECD56C9E16E80D781DE75 /* Pods_UIScrollView_TDScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIScrollView_TDScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1068D3F0692BFABE1EDDD763 /* Pods-UIScrollView+TDScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIScrollView+TDScrollView.debug.xcconfig"; path = "Target Support Files/Pods-UIScrollView+TDScrollView/Pods-UIScrollView+TDScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		BDAA39422578B6530001F781 /* UIScrollView+TDScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIScrollView+TDScrollView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAA39452578B6530001F781 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDAA39462578B6530001F781 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDAA39482578B6530001F781 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BDAA39492578B6530001F781 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BDAA394B2578B6530001F781 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BDAA394C2578B6530001F781 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BDAA394F2578B6530001F781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDAA39512578B6550001F781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDAA39542578B6550001F781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDAA39562578B6550001F781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDAA39572578B6550001F781 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDAA395D2578B6550001F781 /* UIScrollView+TDScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIScrollView+TDScrollViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAA39612578B6550001F781 /* UIScrollView_TDScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollView_TDScrollViewTests.m; sourceTree = "<group>"; };
+		BDAA39632578B6550001F781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDAA39682578B6550001F781 /* UIScrollView+TDScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIScrollView+TDScrollViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAA396C2578B6550001F781 /* UIScrollView_TDScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollView_TDScrollViewUITests.m; sourceTree = "<group>"; };
+		BDAA396E2578B6550001F781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDAA397D2578B6900001F781 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		BDAA397E2578B6900001F781 /* UIScrollView+TDScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TDScrollView.m"; sourceTree = "<group>"; };
+		BDAA397F2578B6900001F781 /* UIScrollView+TDScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TDScrollView.h"; sourceTree = "<group>"; };
+		BDAA39802578B6900001F781 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		FB603666D709732FA5C7FF8E /* Pods-UIScrollView+TDScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIScrollView+TDScrollView.release.xcconfig"; path = "Target Support Files/Pods-UIScrollView+TDScrollView/Pods-UIScrollView+TDScrollView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDAA393F2578B6530001F781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D09D62AA2F2DCAD70ACD8D1 /* Pods_UIScrollView_TDScrollView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAA395A2578B6550001F781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAA39652578B6550001F781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C949EA31F25C975873E8226 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1068D3F0692BFABE1EDDD763 /* Pods-UIScrollView+TDScrollView.debug.xcconfig */,
+				FB603666D709732FA5C7FF8E /* Pods-UIScrollView+TDScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		97C4F8CB04E173911CED16BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A7ECD56C9E16E80D781DE75 /* Pods_UIScrollView_TDScrollView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDAA39392578B6530001F781 = {
+			isa = PBXGroup;
+			children = (
+				BDAA39442578B6530001F781 /* UIScrollView+TDScrollView */,
+				BDAA39602578B6550001F781 /* UIScrollView+TDScrollViewTests */,
+				BDAA396B2578B6550001F781 /* UIScrollView+TDScrollViewUITests */,
+				BDAA39432578B6530001F781 /* Products */,
+				5C949EA31F25C975873E8226 /* Pods */,
+				97C4F8CB04E173911CED16BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BDAA39432578B6530001F781 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDAA39422578B6530001F781 /* UIScrollView+TDScrollView.app */,
+				BDAA395D2578B6550001F781 /* UIScrollView+TDScrollViewTests.xctest */,
+				BDAA39682578B6550001F781 /* UIScrollView+TDScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDAA39442578B6530001F781 /* UIScrollView+TDScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				BDAA397D2578B6900001F781 /* UIScrollView+EmptyDataSet.h */,
+				BDAA39802578B6900001F781 /* UIScrollView+EmptyDataSet.m */,
+				BDAA397F2578B6900001F781 /* UIScrollView+TDScrollView.h */,
+				BDAA397E2578B6900001F781 /* UIScrollView+TDScrollView.m */,
+				BDAA39452578B6530001F781 /* AppDelegate.h */,
+				BDAA39462578B6530001F781 /* AppDelegate.m */,
+				BDAA39482578B6530001F781 /* SceneDelegate.h */,
+				BDAA39492578B6530001F781 /* SceneDelegate.m */,
+				BDAA394B2578B6530001F781 /* ViewController.h */,
+				BDAA394C2578B6530001F781 /* ViewController.m */,
+				BDAA394E2578B6530001F781 /* Main.storyboard */,
+				BDAA39512578B6550001F781 /* Assets.xcassets */,
+				BDAA39532578B6550001F781 /* LaunchScreen.storyboard */,
+				BDAA39562578B6550001F781 /* Info.plist */,
+				BDAA39572578B6550001F781 /* main.m */,
+			);
+			path = "UIScrollView+TDScrollView";
+			sourceTree = "<group>";
+		};
+		BDAA39602578B6550001F781 /* UIScrollView+TDScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDAA39612578B6550001F781 /* UIScrollView_TDScrollViewTests.m */,
+				BDAA39632578B6550001F781 /* Info.plist */,
+			);
+			path = "UIScrollView+TDScrollViewTests";
+			sourceTree = "<group>";
+		};
+		BDAA396B2578B6550001F781 /* UIScrollView+TDScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDAA396C2578B6550001F781 /* UIScrollView_TDScrollViewUITests.m */,
+				BDAA396E2578B6550001F781 /* Info.plist */,
+			);
+			path = "UIScrollView+TDScrollViewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDAA39412578B6530001F781 /* UIScrollView+TDScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDAA39712578B6550001F781 /* Build configuration list for PBXNativeTarget "UIScrollView+TDScrollView" */;
+			buildPhases = (
+				EC5CBF3BE671BDAAF8D3DFED /* [CP] Check Pods Manifest.lock */,
+				BDAA393E2578B6530001F781 /* Sources */,
+				BDAA393F2578B6530001F781 /* Frameworks */,
+				BDAA39402578B6530001F781 /* Resources */,
+				3A4FA2D07E3F46F60545CDE5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIScrollView+TDScrollView";
+			productName = "UIScrollView+TDScrollView";
+			productReference = BDAA39422578B6530001F781 /* UIScrollView+TDScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDAA395C2578B6550001F781 /* UIScrollView+TDScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDAA39742578B6550001F781 /* Build configuration list for PBXNativeTarget "UIScrollView+TDScrollViewTests" */;
+			buildPhases = (
+				BDAA39592578B6550001F781 /* Sources */,
+				BDAA395A2578B6550001F781 /* Frameworks */,
+				BDAA395B2578B6550001F781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDAA395F2578B6550001F781 /* PBXTargetDependency */,
+			);
+			name = "UIScrollView+TDScrollViewTests";
+			productName = "UIScrollView+TDScrollViewTests";
+			productReference = BDAA395D2578B6550001F781 /* UIScrollView+TDScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDAA39672578B6550001F781 /* UIScrollView+TDScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDAA39772578B6550001F781 /* Build configuration list for PBXNativeTarget "UIScrollView+TDScrollViewUITests" */;
+			buildPhases = (
+				BDAA39642578B6550001F781 /* Sources */,
+				BDAA39652578B6550001F781 /* Frameworks */,
+				BDAA39662578B6550001F781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDAA396A2578B6550001F781 /* PBXTargetDependency */,
+			);
+			name = "UIScrollView+TDScrollViewUITests";
+			productName = "UIScrollView+TDScrollViewUITests";
+			productReference = BDAA39682578B6550001F781 /* UIScrollView+TDScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDAA393A2578B6530001F781 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					BDAA39412578B6530001F781 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					BDAA395C2578B6550001F781 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = BDAA39412578B6530001F781;
+					};
+					BDAA39672578B6550001F781 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = BDAA39412578B6530001F781;
+					};
+				};
+			};
+			buildConfigurationList = BDAA393D2578B6530001F781 /* Build configuration list for PBXProject "UIScrollView+TDScrollView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDAA39392578B6530001F781;
+			productRefGroup = BDAA39432578B6530001F781 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDAA39412578B6530001F781 /* UIScrollView+TDScrollView */,
+				BDAA395C2578B6550001F781 /* UIScrollView+TDScrollViewTests */,
+				BDAA39672578B6550001F781 /* UIScrollView+TDScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDAA39402578B6530001F781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAA39552578B6550001F781 /* LaunchScreen.storyboard in Resources */,
+				BDAA39522578B6550001F781 /* Assets.xcassets in Resources */,
+				BDAA39502578B6530001F781 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAA395B2578B6550001F781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAA39662578B6550001F781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A4FA2D07E3F46F60545CDE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UIScrollView+TDScrollView/Pods-UIScrollView+TDScrollView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UIScrollView+TDScrollView/Pods-UIScrollView+TDScrollView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UIScrollView+TDScrollView/Pods-UIScrollView+TDScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC5CBF3BE671BDAAF8D3DFED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIScrollView+TDScrollView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDAA393E2578B6530001F781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAA394D2578B6530001F781 /* ViewController.m in Sources */,
+				BDAA39472578B6530001F781 /* AppDelegate.m in Sources */,
+				BDAA39582578B6550001F781 /* main.m in Sources */,
+				BDAA394A2578B6530001F781 /* SceneDelegate.m in Sources */,
+				BDAA39822578B6900001F781 /* UIScrollView+EmptyDataSet.m in Sources */,
+				BDAA39812578B6900001F781 /* UIScrollView+TDScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAA39592578B6550001F781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAA39622578B6550001F781 /* UIScrollView_TDScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAA39642578B6550001F781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAA396D2578B6550001F781 /* UIScrollView_TDScrollViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDAA395F2578B6550001F781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDAA39412578B6530001F781 /* UIScrollView+TDScrollView */;
+			targetProxy = BDAA395E2578B6550001F781 /* PBXContainerItemProxy */;
+		};
+		BDAA396A2578B6550001F781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDAA39412578B6530001F781 /* UIScrollView+TDScrollView */;
+			targetProxy = BDAA39692578B6550001F781 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDAA394E2578B6530001F781 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDAA394F2578B6530001F781 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDAA39532578B6550001F781 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDAA39542578B6550001F781 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDAA396F2578B6550001F781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BDAA39702578B6550001F781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDAA39722578B6550001F781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1068D3F0692BFABE1EDDD763 /* Pods-UIScrollView+TDScrollView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UIScrollView+TDScrollView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.UIScrollView-TDScrollView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDAA39732578B6550001F781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB603666D709732FA5C7FF8E /* Pods-UIScrollView+TDScrollView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UIScrollView+TDScrollView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.UIScrollView-TDScrollView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDAA39752578B6550001F781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UIScrollView+TDScrollViewTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.UIScrollView-TDScrollViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIScrollView+TDScrollView.app/UIScrollView+TDScrollView";
+			};
+			name = Debug;
+		};
+		BDAA39762578B6550001F781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UIScrollView+TDScrollViewTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.UIScrollView-TDScrollViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIScrollView+TDScrollView.app/UIScrollView+TDScrollView";
+			};
+			name = Release;
+		};
+		BDAA39782578B6550001F781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UIScrollView+TDScrollViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.UIScrollView-TDScrollViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UIScrollView+TDScrollView";
+			};
+			name = Debug;
+		};
+		BDAA39792578B6550001F781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UIScrollView+TDScrollViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.UIScrollView-TDScrollViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UIScrollView+TDScrollView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDAA393D2578B6530001F781 /* Build configuration list for PBXProject "UIScrollView+TDScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDAA396F2578B6550001F781 /* Debug */,
+				BDAA39702578B6550001F781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDAA39712578B6550001F781 /* Build configuration list for PBXNativeTarget "UIScrollView+TDScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDAA39722578B6550001F781 /* Debug */,
+				BDAA39732578B6550001F781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDAA39742578B6550001F781 /* Build configuration list for PBXNativeTarget "UIScrollView+TDScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDAA39752578B6550001F781 /* Debug */,
+				BDAA39762578B6550001F781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDAA39772578B6550001F781 /* Build configuration list for PBXNativeTarget "UIScrollView+TDScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDAA39782578B6550001F781 /* Debug */,
+				BDAA39792578B6550001F781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDAA393A2578B6530001F781 /* Project object */;
+}

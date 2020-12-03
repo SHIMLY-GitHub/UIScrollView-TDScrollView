@@ -2,7 +2,7 @@
 
 ## 如何使用
 
-1. 设置``` tableView```或者``collectionView` `的delegate
+1. 设置``` tableView```或者```collectionView```的delegate
 
    ```
    tableView.tdDelegate = self

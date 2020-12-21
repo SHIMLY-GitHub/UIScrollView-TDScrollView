@@ -2,7 +2,29 @@
 ## 依赖
 * MJRefresh
 * DZNEmptyDataSet
+## 为什么会使用UISCrollView-TDScrollView
+* 如果给一个``` scrollview ```添加下拉刷新你可能会这样写
+   ```
+   
+   self.collectionView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
+  
+   }];
 
+   self.collectionView.mj_footer = [MJRefreshAutoNormalFooter footerWithRefreshingBlock:^{
+  
+   }];
+   ```
+   }];
+* 当你需要显示空白页面的时候你也许会这样写
+```
+   if(list.count == 0){
+      empty.hidden = false
+   }else{
+     empty.hidden = true
+   }
+```
+我认为工程中大量如此的代码，不够美观，不够优雅，所以我觉得应该有更好的实现方式
+  
 ## 如何使用
 
 1. 设置``` tableView```或者```collectionView```的delegate

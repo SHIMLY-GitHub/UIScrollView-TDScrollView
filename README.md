@@ -16,13 +16,13 @@
    ```
    }];
 * 当你需要显示空白页面的时候你也许会这样写
-```
-   if(list.count == 0){
-      empty.hidden = false
-   }else{
-     empty.hidden = true
-   }
-```
+   ```
+       if(list.count == 0){
+          empty.hidden = false
+       }else{
+         empty.hidden = true
+       }
+   ```
 我认为工程中大量如此的代码，不够美观，不够优雅，所以我觉得应该有更好的实现方式
   
 ## 如何使用
